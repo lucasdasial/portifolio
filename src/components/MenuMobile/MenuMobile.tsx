@@ -14,8 +14,8 @@ export function MenuMobile(props: Props) {
         <a href="#about" onClick={() => props.setMenuIsOpen(false)}>
           Sobre Dasial
         </a>
-        <a href="#" onClick={() => props.setMenuIsOpen(false)}>
-          Em Breve
+        <a href="#skills" onClick={() => props.setMenuIsOpen(false)}>
+          Conhecimentos tecnicos
           <br />
           {/* Meus conhecimentos */}
         </a>

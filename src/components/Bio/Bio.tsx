@@ -7,7 +7,11 @@ export function Bio() {
   return (
     <Container id="about">
       <Content>
-        <TextBox>
+        <TextBox
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <p>
             Olá! 👋 Sou <strong>Lucas,</strong> desenvolvedor de software e
             entusiasta ui/ux design, baseado no Brasil.🇧🇷
@@ -27,7 +31,11 @@ export function Bio() {
           <SocialMedia />
         </TextBox>
 
-        <ImageBox>
+        <ImageBox
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <img src={imgSrc} alt="Foto de perfil" />
         </ImageBox>
       </Content>

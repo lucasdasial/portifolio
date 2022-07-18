@@ -1,0 +1,80 @@
+import { Container, Content } from "./Skills.styes";
+
+export function Skills() {
+  return (
+    <Container id="skills">
+      <Content>
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="js"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          alt="ts"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          alt="node"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        />
+
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+          alt="nest"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+          alt="go lang"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          alt="graphql"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1200"
+          alt="vue"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1400"
+          alt="react"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1400"
+          alt="firebase"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1600"
+          alt="postgres"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        />
+      </Content>
+    </Container>
+  );
+}
