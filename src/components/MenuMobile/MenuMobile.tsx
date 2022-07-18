@@ -12,16 +12,22 @@ export function MenuMobile(props: Props) {
       <IoClose size={45} onClick={() => props.setMenuIsOpen(false)} />
       <nav>
         <a href="#about" onClick={() => props.setMenuIsOpen(false)}>
-          About dasial
+          Sobre Dasial
         </a>
         <a href="#" onClick={() => props.setMenuIsOpen(false)}>
-          Meus conhecimentos
+          Em Breve
+          <br />
+          {/* Meus conhecimentos */}
         </a>
         <a href="#" onClick={() => props.setMenuIsOpen(false)}>
-          Oque sou capaz de fazer
+          Em Breve
+          <br />
+          {/* Oque sou capaz de fazer */}
         </a>
         <a href="#" onClick={() => props.setMenuIsOpen(false)}>
-          Entre em contato
+          Em Breve
+          <br />
+          {/* Entre em contato */}
         </a>
       </nav>
     </Container>

@@ -4,7 +4,7 @@ import { ButtonMenu, Container, Logo } from "./Header.styles";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 export function Header() {
-  const [menuIsOpen, setMenuIsOpen] = useState(true);
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
     <Container>

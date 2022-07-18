@@ -1,6 +1,7 @@
 import { Bio } from "../../components/Bio/Bio";
 import { Hero } from "../../components/Hero/Hero";
 import Header from "../../components/Header";
+import { Footer } from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Hero />
       <Bio />
+      <Footer />
     </>
   );
 }
