@@ -14,7 +14,7 @@ export const Container = styled.div<Props>`
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 5;
+  z-index: 10;
   display: flex;
   transition: 400ms;
 

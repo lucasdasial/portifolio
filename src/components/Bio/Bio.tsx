@@ -1,4 +1,5 @@
 import Rellax from "rellax";
+import { SocialMedia } from "../SocialMedia/SocialMedia";
 import { Container, Content, ImageBox, TextBox } from "./Bio.styles";
 
 export function Bio() {
@@ -23,6 +24,7 @@ export function Bio() {
             Estou sempre aperfeiçando e aprendendo novas maneiras de fazer meu
             trabalho. 🌱
           </p>
+          <SocialMedia />
         </TextBox>
 
         <ImageBox>
