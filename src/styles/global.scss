@@ -12,6 +12,13 @@ body {
   overflow-x: hidden;
   background: var(--bg-1);
 }
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+  }
+}
 a {
   text-decoration: none;
   color: var(--light);

@@ -1,0 +1,26 @@
+//com scss
+.Container {
+  color: #fff;
+  width: 100%;
+  height: 500px;
+
+  .Title {
+    color: aqua;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}
+
+//com css
+
+.Container1 {
+  color: #fff;
+  width: 100%;
+  height: 500px;
+}
+
+.Container1 .Title1 {
+  color: aqua;
+  font-size: 3rem;
+  font-weight: 600;
+}
