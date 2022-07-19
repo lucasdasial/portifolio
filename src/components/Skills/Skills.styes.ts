@@ -14,12 +14,35 @@ export const Content = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 2rem;
   color: var(--letter);
 
-  > img {
-    width: 45px;
-    height: 50px;
+  h1 {
+    font-size: 3rem;
   }
+
+  .langs {
+    text-align: center;
+  }
+`;
+
+export const Langs = styled.section`
+  padding: 1rem;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  text-align: center;
+
+  > img {
+    width: 65px;
+    cursor: pointer;
+  }
+`;
+
+export const DsLang = styled.section`
+  padding: 1rem;
+  max-width: 500px;
+  background-color: var(--dark);
 `;
